@@ -60,37 +60,37 @@ def model_predict(text):
 
     return category_list
 
-test_sentences = [
-    'Divorcing my wife',
-    'Abused by my husband',
-    'I want to create a will',
-    'Mental health dropping',
-    'I wish to adopt a child',
+# test_sentences = [
+#     'Divorcing my wife',
+#     'Abused by my husband',
+#     'I want to create a will',
+#     'Mental health dropping',
+#     'I wish to adopt a child',
     
-    'I have an employment issue',
-    'Want to Claim insurance',
-    'I took out a large loan',
-    'I need some help on an investment I made',
-    'I bought a product and need to use lemon law',
+#     'I have an employment issue',
+#     'Want to Claim insurance',
+#     'I took out a large loan',
+#     'I need some help on an investment I made',
+#     'I bought a product and need to use lemon law',
     
-    'I intend to buy a BTO house',
-    'paying my mortgage',
-    'I had a huge fight with my tenant. I am not sure what I should do. He keeps screaming at me and does not reply me',
-    'I got sued for a copyright',
-    'I had a will estate planning issue',
+#     'I intend to buy a BTO house',
+#     'paying my mortgage',
+#     'I had a huge fight with my tenant. I am not sure what I should do. He keeps screaming at me and does not reply me',
+#     'I got sued for a copyright',
+#     'I had a will estate planning issue',
     
-    'I was harassed by some stranger on the street',
-    'I received a defamation letter',
-    'I have issues with privacy',
-    'PDPA is a serious concern my company faces',
-    'My neighbor keeps banging my door',
+#     'I was harassed by some stranger on the street',
+#     'I received a defamation letter',
+#     'I have issues with privacy',
+#     'PDPA is a serious concern my company faces',
+#     'My neighbor keeps banging my door',
     
-    'I wish to make a personal injury claim',
-    'I was threatened by the man earlier',
-    'My employer neglected my well-being',
-    'I got into a traffic accident',
-    'My doctor did not prescribe the right medicine',
-]
+#     'I wish to make a personal injury claim',
+#     'I was threatened by the man earlier',
+#     'My employer neglected my well-being',
+#     'I got into a traffic accident',
+#     'My doctor did not prescribe the right medicine',
+# ]
 
-for sentence in test_sentences:
-    model_predict(sentence)
+# for sentence in test_sentences:
+#     model_predict(sentence)
