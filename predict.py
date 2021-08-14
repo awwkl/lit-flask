@@ -55,7 +55,7 @@ def model_predict(text):
     y_avg_prob_map_sorted = {k: v for k, v in sorted(y_avg_prob_map.items(), key=lambda x: x[1], reverse=True)}
     print('Sorted Map:', y_avg_prob_map_sorted)
     
-    category_list = list(y_avg_prob_map_sorted.keys())[0:2]
+    category_list = list(y_avg_prob_map_sorted.keys())
 #     print('Category list: ', category_list)
 
     return category_list

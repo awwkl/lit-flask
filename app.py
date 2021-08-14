@@ -10,9 +10,7 @@ def hello_world():
 @app.route('/predict_text', methods=['POST'])
 def predict_text():
     text = request.args.get('text')
-
     category_list = model_predict(text)
-
     return str(category_list)
 
 if __name__ == "__main__":
